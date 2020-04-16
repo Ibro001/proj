@@ -1,0 +1,105 @@
+#h1{
+    background-image: radial-gradient(red, white, blue);
+    background-image: -webkit-radial-gradient(red,white, blue);
+    background-image: -moz-radial-gradient(red, white, blue);
+    border-radius: 0em;
+    text-align: center;
+    -webkit-text-stroke: 2px red;
+}
+#body{
+    color: #008080;
+    background-color:maroon;
+    perspective: 1000;
+    -webkit-perspective: 1000;
+}
+.list{
+    color: blueviolet;
+    list-style-type: decimal-leading-zero;
+}
+.box{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    height: 350px;
+    width: 350px;
+    border: 1px solid red;
+    background-color: white;
+opacity: .1;
+}
+h2{
+    text-align: center;
+    -webkit-text-stroke: 2px blanchedalmond;
+}
+img{
+    -webkit-box-reflect: left 2px;
+    -webkit-linear-gradient:(bottom, white, transperent 40%, transperent);
+    image-resolution: 25px;
+}
+#shadow{
+    font-size: 100px;
+    text-shadow: 5px 5px 5px #cccccc;
+}
+#box1,#box2,#box3,#box4,#box5{
+    width:100px;
+    height:80px;
+    border:3px solid black;
+    background-color:yellowgreen;
+}
+#box2{
+    transform: translate(100px, 0px);
+    -webkit-transform: translate(100px,opx);
+    -ms-transform: translate(100px, 0px);
+}
+#box3{
+    transform: rotate(45deg);
+}
+#box4{
+    -webkit-transform:scale(2);
+    transform:translate(100px, 0px);
+}
+#box5{
+    transform:skew(2);
+}
+#box6,#box7,#box8,#box9,#box10{
+height: 80px;
+width: 100px;
+border: 3px solid gold;
+background-color: azure;
+}
+#box7{
+    transform: rotateX(45deg);
+    -webkit-transform: rotateX(45deg);
+}
+#box8{
+    transform:rotateX(89deg);
+    -webkit-transform: rotateX(89deg);
+}
+#box9{
+    transform:rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+#box10{
+    transform: rotate3d(1, 2, 0, 45deg);
+    -webkit-transform: rotate3d(1, -1, 0, 45deg);
+}
+#h1{
+    color:black;
+    font-size: 300%;
+    transition: color 1s ease in;
+}
+h1:hover{
+    color:red;
+}
+#box{
+    transition: all 1s 1s ease-in;
+    height:100px;
+    width:100px;
+    border:4px solid black;
+}
+#box:hover{
+    transform: rotate(360deg);
+}
+img{
+    float: right;
+    transform: scale(2%);
+}

@@ -1,0 +1,40 @@
+#head{
+    text-align: center;
+background-color:red;
+}
+#left{
+    float: left;
+    width: 20%;
+    padding-left: 1%;
+    height: 30em;
+    overflow: auto;
+    background-color: #eeeeee;
+}
+#centre{
+    float: left;
+    width: 60%;
+    padding-left: 1%;
+    height: 30em;
+    overflow: auto;
+}
+#right{
+    float: right;
+    width: 17%;
+    padding-left: 1%;
+    height: 30em;
+    overflow: auto;
+    background-color: #eeeeee;
+}
+#foot{
+    text-align: center;
+    border: 1px solid black;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+video{
+    transform: translate(16%);
+}

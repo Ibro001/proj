@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+img{
+    float: right;
+}
+p{
+border: solid black 2px;
+}
+.floated{
+    float: left;
+    width: 25%;
+    clear: left;
+}
+.right{
+    margin-left: 52%;
+    clear: both;
+}
+fieldset{
+    background-color: #AAAAFF;
+}
+label{
+    float: left;
+    text-align: right;
+    width: 5em;
+    margin-right: .5em;
+    clear: both;
+}
+input{
+    background-color: #CCCCFF;
+    float: left;
+}
+button{
+    float: left;
+    width: 10em;
+    margin-left: 7em;
+    margin-top: 1em;
+    background-color: #0000CC;
+    color:#FFFFFF;
+    clear: both;
+}
+#head{
+    background-color:lightgray;
+}
+#left{
+    background-color: lightblue;
+}
+#right{
+    background-color: rosybrown;
+}
+#footer{
+    background-color: linen;
+}

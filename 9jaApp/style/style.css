@@ -1,0 +1,128 @@
+#h1{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-decoration: none;
+    border: 0.5em greenyellow double;
+    text-align: center;
+}
+body{
+    background-image: url("../cancun-1228131_1920.jpg");
+    background-repeat: no-repeat;
+    color: rgb(99, 55, 223);
+}
+p{
+    color:hsl(325, 61%, 38%);
+    font-size:meduim;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: obliques;
+    font-weight: bold;
+}
+#qoute{
+    font: bold italic 130% garamond, comic sans ms, fantasy;
+    text-align: center;
+}
+#attribution {
+    font: 80% monospace;
+    text-align: right;
+}
+#cs2{
+    font: 100% garamond,comic sans ms, fantasy;
+    text-align: left;
+}
+strong{
+    color: #ff0000;
+    text-transform: capitalize
+}
+em{
+    color:#ff00ff;
+    text-transform: capitalize;
+}
+.question{
+    font:  2em garamond,comic sans ms, fantasy;
+    text-align: left;
+    color:#f00;
+}
+.answer{
+    font: 120% comic sans ms,cursive;
+    text-align: right;
+    color: #00f;
+}
+.red{
+    background-color: #f00;
+}
+.script{
+    font-family: cursive;
+    color: #000000;
+}
+a{
+    color:black;
+    background-color: white;
+}
+a :visited {
+color:black;
+background-color: #ffff33;
+}
+a:hover{
+    color:white;
+    background-color: #55dd33;
+}
+#special p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ff00ff;
+    text-align:right;
+}
+#left p{
+    text-align: left;
+    color: #55dd33;
+}
+h1,h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    background-color: aliceblue;
+}
+h3{
+    font-style: monospace;
+}
+#mylist>li:nth-child(2n+1){
+    border: 1px solid red;
+    border-radius: 0.5em;
+}
+#main{
+    border: red 5px solid;
+}
+#default{
+    border: black 2px solid;
+}
+#margin{
+    margin:5px;
+}
+#padding{
+    padding:5px;
+}
+#both{
+    margin:5px;
+    padding:5px;
+}
+h2{
+    background-image: url("../IMG_0052.JPG");
+    text-align: center;
+    border-radius: 2em;
+    color: #ff0000;
+}
+.box{
+    background-image: linear-gradient(left,red, white);
+    background-image: -webkit-linear-gradient(left,red, white);
+    background-image: -moz-linear-gradient(left,red,white);
+}
+.dock{
+    background-image:
+    linear-gradient(75deg,red,white 33%,white 66%,blue);
+    background-image:
+    -moz-linear-gradient(75deg,red,white 33%,white 66%,blue);
+    background-image:
+    -webkit-linear-gradient(75deg,red, white 33%,white 66%,blue)
+}
+#txtanx{
+    background-image: -webkit-linear-gradient(75deg,red,white 33%,white 66%,blue);
+}

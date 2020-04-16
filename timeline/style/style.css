@@ -1,0 +1,67 @@
+.timeline-container {
+    position: relative;
+    width: 600px;
+    margin: 150px auto 0 auto;
+}
+
+.timelime-container ::after {
+content: '';
+position: absolute;
+width: 60px;
+top: 0;
+bottom: 0;
+left: 50px;
+margin-left: -3px;
+}
+
+.text-wrapper {
+padding: 19px 40px;
+position: relative;
+background-color: inherit;
+width: 50px;
+box-sizing: border-box;
+margin: 50px 0;
+}
+
+.text-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #8125E2;
+    top: 15px;
+    border-radius: 50px
+}
+.left{
+    left: 0;
+}
+
+.right{
+    left: 50px;
+}
+
+right::after{
+    left: -10px;
+}
+
+.text{
+    padding: 15px 15px 15px 17px;
+    background-color: #f5f5f5;
+    border-raduis: 4px;
+}
+
+.text h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    letter-spacing: 1px;
+}
+
+.text p{
+    color: #616161;
+    font-weight: 300;
+    font-size: 18px
+}
+
+

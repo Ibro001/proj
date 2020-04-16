@@ -1,0 +1,19 @@
+#header{
+    text-align: center;
+    border-bottom: 3px double black;
+}
+#left{
+    float: left;
+    width: 20%;
+}
+#right{
+    border-left: 3px double gray;
+    float: left;
+    width: 75%;
+    
+}
+#footer{
+    border-top: 3px double gray;
+    clear: both;
+    text-align: center;
+}

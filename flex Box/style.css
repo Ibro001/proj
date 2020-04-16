@@ -1,0 +1,28 @@
+#all{
+    display: box;
+    display: -webkit-box;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    height: 400px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#main{
+    display: box;
+    display: -webkit-box;
+    box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+}
+#nav{
+    box-flex: 1;
+    -webkit-box-flex: 1;
+}
+#article{
+    box-flex: 1;
+    -webkit-box-flex: 3;
+}
+header,footer{
+    display: block;
+    text-align: center;
+}

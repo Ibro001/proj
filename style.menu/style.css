@@ -1,0 +1,19 @@
+#menu li{
+    list-style-type: none;
+    width: 5em;
+    text-align: center;
+    margin-left: -2.5em;
+}
+#menu a {
+    text-decoration: one;
+    color: black;
+    display: block;
+    background-color: #eeeeff;
+    box-shadow: 5px 5px spx gray;
+    margin-bottom: 2px;
+}
+#menu a :hover{
+    background-color: #ddddee;
+    box-shadow: 3px 3px 3px gray;
+    border: none;
+}
