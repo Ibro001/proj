@@ -31,10 +31,11 @@ background-color:red;
     clear: both;
     float: left;
     width: 100%;
+    border-radius: 100px;
 }
 h2{
     text-align: center;
 }
 video{
-    transform: translate(16%);
+    align-content: center;
 }

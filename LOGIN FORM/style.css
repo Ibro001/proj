@@ -2,7 +2,7 @@ body{
     margin: 0em;
     padding: 0em;
     font-family: sans-serif;
-    background-image: url(./IMAGES/cancun-1228131_1920.jpg)
+    background-image: url(./IMAGES/cancun-1228131_1920.jpg);
     background-size: cover;
 }
 .box{
@@ -29,7 +29,7 @@ body{
 }
 .inputBox input{
     width: 100%;
-    paddding: 10px 0;
+    padding: 10px 0;
     font-size: 16px;
     color: #fff;
     letter-spacing: 1px;

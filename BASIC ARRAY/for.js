@@ -5,5 +5,3 @@ for (i = 0; i < gameList.length; i++){
     text += "I Love " + gameList[i] + "\n";
     alert(text);
 }
-1243
-

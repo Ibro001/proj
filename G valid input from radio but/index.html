@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en-US"></html>
+    <head>
+        <meta charset="utf-8">
+        <script type = "text/javascript" src="demo.js"></script>
+        <title>getting valid input with radio button</title>
+    </head>
+    <body>
+        <h1>With What Weapon Will You Fight The Dragon</h1>
+        <form action="">
+            <fieldset>
+                <input type="radio"
+                       name = "weapon"
+                       id ="radSpoon"
+                       value ="spoon"
+                       checked = "checked"/>
+                <label for="radSpoon">Spoon</label>
+                <input type ="radio"
+                       name ="weapon"
+                       id = "radFlower" 
+                       value="flower"/>
+                <label for="radFlower">Flower</label>
+                <input type="radio"
+                       name="weapon"
+                       id="radNoodle"
+                       value="Noodle"/>
+                <label for="radNoodle">Wet noodle</label>   
+                    <button type="button"
+                            onclick="fight()">
+                            Fight The Dragon
+                    </button>
+            </fieldset>
+        </form>
+        <div id="output">
+
+        </div>
+    </body>
+</html>

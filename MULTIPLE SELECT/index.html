@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en-US"></html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="demo.js"></script>
+        <title>Multiple selection</title>
+    </head>
+    <body>
+        <h1>Multiple Selection</h1>
+        <form action="">
+            <fieldset>
+                <label>
+                    Select the langauage's you know.
+                    (ctrl-click to select multiple lines)
+                </label>
+                <select id = "selLanguage"
+                    multiple= "multiple"
+                    size = "10">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JAVASCRIPT">JAVASCRIPT</option>
+                    <option value="PHP">PHP</option>
+                    <option value="MYSQL">MYSQL</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="VB.NET">VB.NET</option>
+                    <option value="PYTHON">PYTHON</option>
+                    <option value="FLASH">FLASH</option>
+                    <option value="PERL">PERL</option>
+                </select>
+                <button type="button"
+                        onclick="showChoices()">
+                        Submit
+                </button>
+            </fieldset>
+        </form>
+        <div id="output">
+            
+        </div>
+    </body>
+</html>
